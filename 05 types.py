@@ -20,7 +20,15 @@ text = "1234567890"
 print(len(text))  # 10
 
 # 字符串用于处理文字，数字用于处理数学计算
+
+# 打印字符串ABC是否大于字符串ABD的结果
 print("ABC" > "ABD")  # False
-# print("ABC" > 123) TypeError 类型不一致
+
+# 打印字符串ABC是否大于数字123的结果
+# print("ABC" > 123)  # TypeError 类型不一致
+
+# 打印浮点数123.0是否大于整数123的结果
 print(123.0 > 123)  # False
+
+# 打印字符串123.0是否大于字符串123的结果
 print("123.0" > "123")  # True
